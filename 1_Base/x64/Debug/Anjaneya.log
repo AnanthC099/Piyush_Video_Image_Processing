@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file cudaKernels.cu...
+  
+  C:\Users\anant\Documents\Anjaneya>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc142.pdb" -o C:\Users\anant\Documents\Anjaneya\x64\Debug\cudaKernels.cu.obj "C:\Users\anant\Documents\Anjaneya\cudaKernels.cu" 
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  cudaKernels.cu
+  tmpxft_00002ff0_00000000-7_cudaKernels.cudafe1.cpp
+  CameraCudaD3D11.cpp
+     Creating library C:\Users\anant\Documents\Anjaneya\x64\Debug\Anjaneya.lib and object C:\Users\anant\Documents\Anjaneya\x64\Debug\Anjaneya.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Anjaneya.vcxproj -> C:\Users\anant\Documents\Anjaneya\x64\Debug\Anjaneya.exe
